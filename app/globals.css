@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #FFFFFF;
+  --color-muted: #4A4A4A;
+  --color-rule: #1C1C1C;
+  --color-hover: #FFFFFF;
+  --color-bg: #000000;
+}
+
+:root {
+  --bg: #000000;
+  --ink: #FFFFFF;
+  --muted: #4A4A4A;
+  --rule: #1C1C1C;
+  --hover: #FFFFFF;
+
+  --micro: 10px;
+  --small: 11px;
+  --body: 13px;
+  --display: clamp(72px, 14vw, 180px);
+}
+
+html, body {
+  background-color: var(--bg);
+  color: var(--ink);
+  cursor: none !important;
+  font-size: var(--body);
+  letter-spacing: 0.02em;
+  line-height: 1.7;
+}
+
+* {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  cursor: none !important;
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule) var(--bg);
+}
+
+/* Custom Typography Utilities */
+@layer utilities {
+  .text-micro {
+    font-size: var(--micro);
+    letter-spacing: 0.08em;
+    line-height: 1.4;
+  }
+  
+  .text-small {
+    font-size: var(--small);
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+  }
+  
+  .text-body {
+    font-size: var(--body);
+    letter-spacing: 0.02em;
+    line-height: 1.7;
+  }
+  
+  .text-display {
+    font-size: var(--display);
+    line-height: 0.85;
+  }
+
+  /* Color utilities explicitly mapped to tokens for flexibility */
+  .text-ink { color: var(--ink); }
+  .text-muted { color: var(--muted); }
+  .bg-ink { background-color: var(--ink); }
+  .bg-muted { background-color: var(--muted); }
+  .bg-rule { background-color: var(--rule); }
+  .border-rule { border-color: var(--rule); }
+  .border-ink { border-color: var(--ink); }
+}
+
+/* Base link behavior */
+a {
+  text-decoration: none;
+  cursor: none !important; /* enforce for custom cursor */
+}
+
+/* Sentence case utility since user specifies everything sentence case */
+.sentence-case::first-letter {
+  text-transform: capitalize;
+}
