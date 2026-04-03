@@ -193,6 +193,8 @@ export const projects: Project[] = [
     role: "Graphic design, art direction, thesis",
     category: "Editorial", type: "Thesis project",
     description: "Thesis project on visual homogenization in social media. How algorithmic culture flattens aesthetic identity into a single smooth surface.",
-    videos: ["/works/1-1/Flat_Libro_Teorico.mp4"],
+    videos: ["/works/1-1/Flat_Libro_Teorico.mp4",
+      "/works/1-1/Plexi.mp4"
+    ],
   },
 ]
