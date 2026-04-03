@@ -185,5 +185,14 @@ export const projects: Project[] = [
     category: "Video", type: "Documentary vlog",
     description: "Backstage vlog for a classical music event. Intimacy against grandeur.",
     gallery_images: ["https://images.unsplash.com/photo-1465847899084-d164df4dedc6?w=1400&q=85&auto=format&fit=crop&grayscale"]
-  }
+  },
+  {
+    id: 13, slug: "1-1",
+    title: "1:1",
+    year: 2026, client: "NABA",
+    role: "Graphic design, art direction, thesis",
+    category: "Editorial", type: "Thesis project",
+    description: "Thesis project on visual homogenization in social media. How algorithmic culture flattens aesthetic identity into a single smooth surface.",
+    videos: ["/works/1-1/Flat_Libro_Teorico.mp4"],
+  },
 ]
