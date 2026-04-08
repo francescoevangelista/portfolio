@@ -194,7 +194,8 @@ export const projects: Project[] = [
     category: "Editorial", type: "Thesis project",
     description: "Thesis project on visual homogenization in social media. How algorithmic culture flattens aesthetic identity into a single smooth surface.",
     videos: ["/works/1-1/Flat_Libro_Teorico.mp4",
-      "/works/1-1/Plexi.mp4"
+      "/works/1-1/Plexi.mp4",
+      "/works/1-1/sito.mp4"
     ],
   },
 ]
