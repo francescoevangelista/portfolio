@@ -43,6 +43,7 @@ export default function AboutPage() {
                     <CvEntry date="11.2025 → Ongoing" title="Graphic communication, events" context="NABA, Roma" />
                     <CvEntry date="09.2025 → Ongoing" title="Logo design, brand communication" context="OK. Concept Store — Box 98, Mercato di Testaccio, Roma" />
                     <CvEntry date="08.2025" title="Production assistant" context="Opera Festival — electronic music festival, Milo, Sicilia" />
+                    <CvEntry date="04.2026" title="Type design workshop — Napoli Type" context="Due Studio, Desina — Napoli" />
                     <CvEntry date="2022 → 2026" title="Student life tutor, NABA ambassador, content creator" context="NABA, Roma" />
                 </CvSection>
 
