@@ -198,4 +198,13 @@ export const projects: Project[] = [
       "/works/1-1/sito.mp4"
     ],
   },
+  {
+    id: 14, slug: "napoli-type",
+    title: "Napoli Type",
+    year: 2026, client: "Due Studio",
+    role: "Type design, editorial",
+    category: "Editorial", type: "Workshop — type design",
+    description: "Collective typeface designed from Naples' visual identity. Street signs, civic numbers, graffiti sourced via Google Street View — reworked into a mixed experimental alphabet. Output: a typographic specimen printed as a large-format newspaper, unfolding into 12 posters for exhibition.",
+    videos: ["/works/napoli-type/Napoli_OTF.mp4"],
+  },
 ]
