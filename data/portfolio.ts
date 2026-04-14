@@ -205,6 +205,7 @@ export const projects: Project[] = [
     role: "Type design, editorial",
     category: "Editorial", type: "Workshop — type design",
     description: "Collective typeface designed from Naples' visual identity. Street signs, civic numbers, graffiti sourced via Google Street View — reworked into a mixed experimental alphabet. Output: a typographic specimen printed as a large-format newspaper, unfolding into 12 posters for exhibition.",
-    videos: ["/works/napoli-type/Napoli_OTF_gif.mp4"],
+    videos: ["/works/napoli-otf/Napoli_OTF_gif.mp4"],
+    exhibited: [{ venue: "La Santissima Community Hub", city: "Napoli", year: 2026, show: "DESINA 04" }]
   },
 ]
