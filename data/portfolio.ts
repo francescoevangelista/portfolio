@@ -205,6 +205,6 @@ export const projects: Project[] = [
     role: "Type design, editorial",
     category: "Editorial", type: "Workshop — type design",
     description: "Collective typeface designed from Naples' visual identity. Street signs, civic numbers, graffiti sourced via Google Street View — reworked into a mixed experimental alphabet. Output: a typographic specimen printed as a large-format newspaper, unfolding into 12 posters for exhibition.",
-    videos: ["/works/napoli-type/Napoli_OTF.mp4"],
+    videos: ["/works/napoli-type/Napoli_OTF_gif.mp4"],
   },
 ]
