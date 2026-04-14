@@ -199,8 +199,8 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 14, slug: "napoli-type",
-    title: "Napoli Type",
+    id: 14, slug: "napoli-otf",
+    title: "Napoli OTF — Osservazioni Tipografiche del Futuro",
     year: 2026, client: "Due Studio",
     role: "Type design, editorial",
     category: "Editorial", type: "Workshop — type design",
