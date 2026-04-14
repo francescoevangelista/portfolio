@@ -45,7 +45,6 @@ export default function AboutPage() {
                     <CvEntry date="08.2025" title="Production assistant" context="Opera Festival — electronic music festival, Milo, Sicilia" />
                     <CvEntry date="04.2026" title="Type design workshop — Napoli Type" context="Due Studio, Desina — Napoli" />
                     <CvEntry date="2022 → 2026" title="Student life tutor, NABA ambassador, content creator" context="NABA, Roma" />
-                    <CvEntry date="2026" title="AIAP — Associazione italiana design della comunicazione visiva" context="" />
                 </CvSection>
 
                 <CvSection title="Awards & recognition">
@@ -54,6 +53,10 @@ export default function AboutPage() {
                     <CvEntry date="01.2026" title="Bronze — NCA Awards 2025" context="Oiko app — w/ L. Montaldista, G. Saccone, I. Oppizio" />
                     <CvEntry date="10.2025" title="Exhibition, semifinal MarteLive" context="Lanificio, Roma — Saudade" />
                     <CvEntry date="2025" title="Selected — YoOurbana contest" context='"Lunedì Stratificazioni"' />
+                </CvSection>
+
+                <CvSection title="Organizations">
+                    <CvEntry date="2026" title="AIAP" context="Associazione italiana design della comunicazione visiva" />
                 </CvSection>
             </div>
         </div>
