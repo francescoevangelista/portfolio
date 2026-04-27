@@ -8,6 +8,7 @@ export type Project = {
   category: string
   type: string
   description: string
+  url?: string
   gallery_images?: string[]
   videos?: string[]
   exhibited?: { venue: string; city: string; year: number; show?: string }[]
@@ -15,6 +16,7 @@ export type Project = {
   awarded?: { name: string; year: number; result: string; collaborators?: string }[]
   unreleased?: boolean
 }
+
 
 export const projects: Project[] = [
   {
@@ -47,7 +49,6 @@ export const projects: Project[] = [
       { venue: "Lanificio", city: "Roma", year: 2025, show: "MARTE Live Semifinal" }
     ]
   },
-
   {
     id: 2, slug: "la-citta-opaca",
     title: "La città opaca",
@@ -97,7 +98,8 @@ export const projects: Project[] = [
       "/works/ok-concept-store/9.JPG",
       "/works/ok-concept-store/10.JPG",
     ],
-    videos: ["/works/ok-concept-store/0.mp4",
+    videos: [
+      "/works/ok-concept-store/0.mp4",
       "/works/ok-concept-store/1.mp4",
     ],
   },
@@ -135,7 +137,8 @@ export const projects: Project[] = [
       "/works/doubledragon/2.png",
       "/works/doubledragon/3.png",
     ],
-    videos: ["/works/doubledragon/4.mov",
+    videos: [
+      "/works/doubledragon/4.mov",
       "/works/doubledragon/5.mov",
     ],
     unreleased: true
@@ -193,7 +196,8 @@ export const projects: Project[] = [
     role: "Graphic design, art direction, thesis",
     category: "Editorial", type: "Thesis project",
     description: "Thesis project on visual homogenization in social media. How algorithmic culture flattens aesthetic identity into a single smooth surface.",
-    videos: ["/works/1-1/Flat_Libro_Teorico.mp4",
+    videos: [
+      "/works/1-1/Flat_Libro_Teorico.mp4",
       "/works/1-1/Plexi.mp4",
       "/works/1-1/sito.mp4"
     ],
@@ -207,5 +211,15 @@ export const projects: Project[] = [
     description: "Collective typeface designed from Naples' visual identity. Street signs, civic numbers, graffiti sourced via Google Street View — reworked into a mixed experimental alphabet. Output: a typographic specimen printed as a large-format newspaper, unfolding into 12 posters for exhibition.",
     videos: ["/works/napoli-otf/Napoli_OTF_gif.mp4"],
     exhibited: [{ venue: "La Santissima Community Hub", city: "Napoli", year: 2026, show: "DESINA 04" }]
+  },
+  {
+    id: 15, slug: "spring-fever",
+    title: "Spring Fever",
+    year: 2026, client: "NABA Roma",
+    role: "Web design, development, art direction, event production",
+    category: "Digital", type: "Event website",
+    description: "Event hub for Spring Fever NABA Roma party, 24 Apr 2026. Tickets, ARCI membership, lineup and info consolidated into one designed experience.",
+    url: "https://spring-fever-teal.vercel.app/",
+    videos: ["/works/spring-fever/1.mp4"],
   },
 ]
