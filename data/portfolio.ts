@@ -196,11 +196,24 @@ export const projects: Project[] = [
     role: "Graphic design, art direction, thesis",
     category: "Editorial", type: "Thesis project",
     description: "Thesis project on visual homogenization in social media. How algorithmic culture flattens aesthetic identity into a single smooth surface.",
+    gallery_images: [
+      "/works/1-1/1.1.jpg",
+    ],
     videos: [
       "/works/1-1/Flat_Libro_Teorico.mp4",
       "/works/1-1/Plexi.mp4",
-      "/works/1-1/sito.mp4"
+      "/works/1-1/sito.mp4",
+      "/works/1-1/expo_1.mp4",
+      "/works/1-1/2_conv.mp4",
+      "/works/1-1/3_conv.mp4",
+      "/works/1-1/4_conv.mp4",
+      "/works/1-1/expo_5.mp4",
+      "/works/1-1/6_conv.mp4",
     ],
+    exhibited: [
+      { venue: "Brancaleone", city: "Roma", year: 2026, show: "Fuorisalone" },
+      { venue: "Pantera Studio", city: "Roma", year: 2026, show: "Fuorisalone" },
+    ]
   },
   {
     id: 14, slug: "napoli-otf",
